@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+    <ImageView
+        android:id="@+id/select_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/photo_background"
+        android:scaleType="centerInside">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/text_select_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_image"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/select_image"
+        android:textSize="16sp"/>
+
+    <EditText
+        android:id="@+id/ET_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/text_select_image"
+        android:layout_marginTop="10dp"
+        android:hint="@string/Name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/et_background"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+    <EditText
+        android:id="@+id/ET_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/ET_name"
+        android:layout_marginTop="10dp"
+        android:hint="@string/email"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/et_background"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+    <TextView
+        android:id="@+id/labelYourCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_your_country"
+        android:layout_below="@id/ET_email"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"/>
+
+    <Spinner
+        android:id="@+id/select_your_country"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/labelYourCountry"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/et_background"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+    <TextView
+        android:id="@+id/labelCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_country"
+        android:layout_below="@id/select_your_country"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"/>
+
+    <Spinner
+        android:id="@+id/select_country"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/labelCountry"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/et_background"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+    <EditText
+        android:id="@+id/ET_pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/select_country"
+        android:layout_marginTop="10dp"
+        android:hint="@string/pass"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/et_background"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ET_pass"
+        android:layout_alignStart="@+id/ET_pass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/SignUp"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_go_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Log_in"
+        android:layout_below="@id/btnSignUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <string name="email">Email</string>
+    <string name="pass">Пароль</string>
+    <string name="Log_in">Войти</string>
+    <string name="SignUp">Зарегистрироваться</string>
+    <string name="Name">Имя</string>
+    <string name="vova">Вова</string>
+    <string name="chats">Чаты</string>
+    <string name="profile">Профиль</string>
+    <string name="logout">Выйти из аккаунта</string>
+    <string name="type">Напишите сообщение</string>
+    <string name="sent_message">Сообщение отправлено</string>
+    <string name="select_image">Загрузите изображение</string>
+    <string name="select_your_country">Выберите свою страну</string>
+    <string name="select_country">Выберите страну, с кем бы вы хотели пообщаться</string>
+    <string name="last_message_placeholder">Последнее сообщение</string>
+    <string-array name="countries_array">
+        <item>Россия</item>
+        <item>США</item>
+        <item>Франция</item>
+        <item>Испания</item>
+        <item>Китай</item>
+        <item>Италия</item>
+        <item>Турция</item>
+        <item>Мексика </item>
+        <item>Германия </item>
+        <item>Таиланд</item>
+        <item>Великобритания </item>
+        <item>Япония</item>
+        <item>Австрия</item>
+        <item>Греция</item>
+        <item>Гонконг</item>
+        <item>Канада</item>
+        <item>ОАЭ</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="exit">Выйти из аккаунта</string>
+</resources>
